@@ -71,8 +71,8 @@ function createGrass({ options = { bW: 0.12, bH: 1, joints: 5 }, width = 100, in
 
     //texture load form real grass view
   const textureloader = new THREE.TextureLoader();
- const bladediffuse = textureloader.load("./public/textures/blade_diffuse.jpg");
- const bladealpha = textureloader.load("./public/textures/blade_alpha.jpg");
+ const bladediffuse = textureloader.load("./assets/textures/blade_diffuse.jpg");
+ const bladealpha = textureloader.load("./assets/textures/blade_alpha.jpg");
 
     
     const attributeData = getAttributeData(instances, width);
