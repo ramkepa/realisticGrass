@@ -1,6 +1,6 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import  imageSource from './textures/blade_alpha.jpg'
+// import  imageSource from './textures/blade_alpha.jpg'
 import SimplexNoise from "https://cdn.jsdelivr.net/npm/simplex-noise@2.4.0/+esm";
 import { Sky } from 'three/examples/jsm/objects/Sky.js';
 import GUI from 'lil-gui';
@@ -71,8 +71,8 @@ function createGrass({ options = { bW: 0.12, bH: 1, joints: 5 }, width = 100, in
 
     //texture load form real grass view
   const textureloader = new THREE.TextureLoader();
- const bladediffuse = textureloader.load("./textures/blade_diffuse.jpg");
- const bladealpha = textureloader.load("./textures/blade_alpha.jpg");
+ const bladediffuse = textureloader.load("./public/textures/blade_diffuse.jpg");
+ const bladealpha = textureloader.load("./public/textures/blade_alpha.jpg");
 
     
     const attributeData = getAttributeData(instances, width);
