@@ -6,4 +6,6 @@ cd realisticGrass
 npm install // to install dependencies
 npm run dev //  to run the application in the brower
 npm run build // to create build
+
+GrassTexture are in static folder
 ```
